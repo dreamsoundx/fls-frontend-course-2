@@ -1,0 +1,86 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* ------------------------------ */
+
+.task01 {
+  display: block;
+}
+
+.task02 {
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 15px;
+}
+
+.task03 {
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+  max-width: 100px;
+}
+
+.task04 {
+  display: inline-block;
+  max-width: 100px;
+  margin: 0px 30px 0px 0px;
+  padding: 10px;
+}
+
+.task05 {
+  padding: 10px;
+}
+
+.task05:last-child {
+  margin: -30px 0px 0px 0px;
+}
+
+.task06 {
+  display: block;
+  max-height: 200px;
+  overflow: auto;
+}
